@@ -4,7 +4,7 @@
 # @filename: CMakeLists.txt
 # @author: aliben.develop@gmail.com
 # @create_date: 2018-08-16 09:23:44
-# @last_modified_date: 2018-08-16 10:19:38
+# @last_modified_date: 2018-08-17 12:15:56
 # @description: TODO
 #---****************************************************************---
 
@@ -15,7 +15,7 @@ cmake_minimum_required(VERSION 2.8)
 project(test_sophus)
 
 set( CMAKE_CXX_COMPILER "g++" )
-set( CMAKE_BUILD_TYPE "Release" )
+set( CMAKE_BUILD_TYPE "Debug" )
 set( CMAKE_CXX_FLAGS "-g -std=c++14 -march=native -O0")
 
 # Set Dependence PATH
