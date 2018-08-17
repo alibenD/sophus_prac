@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#---Automatically Generated from template 'bash' wrote by @aliben---
+# @Copyright (C) 2018 All rights reserved.
+# @name: .gitignore
+# @author: aliben.develop@gmail.com
+# @created_date: 2018-08-17 10:30:50
+# @last_modified_date: NO_LAST_MODIFIED_DATE
+# @description: TODO
+#---***********************************************---
+
+#IGNORE LIST
+build/*
+
+#DON NOT IGNORE LIST
