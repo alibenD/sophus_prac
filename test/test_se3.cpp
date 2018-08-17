@@ -5,7 +5,7 @@
   * @version: v0.0.1
   * @author: aliben.develop@gmail.com
   * @create_date: 2018-08-17 14:18:21
-  * @last_modified_date: 2018-08-17 15:19:50
+  * @last_modified_date: 2018-08-17 15:23:08
   * @brief: TODO
   * @details: TODO
   *-----------------------------------------------*/
@@ -78,7 +78,8 @@ int main(int argc, char** argv)
     std::cout << "Vee(SE3): SE3->se3\n" << se3.vee(se3.hat(se3.log()))<< std::endl;
     //auto recovery_se3 = se3.exp(se3.vee(se3.hat(se3.log())));
     recovery_se3 = se3.exp(se3.vee(se3.hat(se3.log())));
-    std::cout << "Recovery Matrix(from se3):\n" << recovery_se3.matrix() << std::endl;
+    std::cout << "Recovery TF Matrix(from se3):\n" << recovery_se3.matrix() << std::endl;
+    std::cout << "Rotation Matrix(from se3):\n" << recovery_se3.rotationMatrix() << std::endl;
 
   return 0;
 }
